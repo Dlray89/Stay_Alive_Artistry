@@ -6,11 +6,35 @@ import './intro.css'
 
 
 const useStyles = makeStyles((theme) => ({
+    Container: {
+        backgroundImage: 'url(' + Saa + ')', 
+        backgroundSize: '100%', 
+        backgroundRepeat: 'no-repeat', 
+        overflowY: 'hidden', 
+        height: '100vh',
+        [theme.breakpoints.down('xs')]: {
+            border:'solid 2px red',
+            height:'100vh',
+            backgroundSize:'100%'
+        }
+
+    },
     button: {
 
         '&:hover': {
             background: '#db8b1e',
             color: '#cb006d'
+        }
+    },
+    linkContainer: {
+        width: '30%', 
+        margin: '32% auto', 
+        display: 'flex', 
+        flexDirection: 'row', 
+        justifyContent: 'space-evenly',
+        [theme.breakpoints.down('xs')] : {
+            border: 'solid 2px red',
+            width:'80%'
         }
     }
 }))
@@ -32,9 +56,9 @@ const Intro = () => {
 
     return (
 
-        <div style={{ backgroundImage: 'url(' + Saa + ')', backgroundSize: '100%', backgroundRepeat: 'no-repeat', overflowY: 'hidden', height: '100vh' }}>
+        <div className={classes.Container} style={{ }}>
 
-            <div style={{width: '30%', margin: '32% auto', display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly' }}>
+            <div className={classes.linkContainer}>
                 <Link to='/gallery' className="slide-in-left" ><Button className={classes.button} color='secondary' variant='contained'>Gallery</Button></Link>
                 <Link className='slide-in-top'><Button className={classes.button} color='secondary' variant='contained'>About</Button></Link>
                 {toggle ? (
