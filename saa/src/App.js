@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch} from 'react-router-dom'
 import './App.css';
 import Intro from './components/Intro'
-import Gallery from './components/gallery'
+import Gallery from './components/Gallery'
 
 function App() {
   return (
