@@ -5,7 +5,7 @@ import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
 import IconButton from '@material-ui/core/IconButton';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
-import Art_one from  '../img/art_one.jpg'
+import { pictureData } from '../data/picData'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -32,18 +32,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-  const tileData = [
-    {
-      img: Art_one,
-      title: 'Collection one',
-      author: 'Angel Price',
- 
-      featured: true,
-    },
-    {
-    
-    },
-  ];
+  
  
 export default function Gallery() {
   const classes = useStyles();
@@ -52,7 +41,7 @@ export default function Gallery() {
     <div className={classes.root}>
         <div style={{border: 'solid 2px red'}}>About Angel here</div>
       <GridList cellHeight={200} spacing={1} className={classes.gridList}>
-        {tileData.map((tile) => (
+        {pictureData.map((tile) => (
           <GridListTile key={tile.img} cols={tile.featured ? 2 : 1} rows={tile.featured ? 2 : 1}>
             <img src={tile.img} alt={tile.title} />
             <GridListTileBar
