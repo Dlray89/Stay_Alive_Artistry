@@ -1,13 +1,13 @@
-import Piece_one from '../img/piece_three.jpg'
-import Piece_two from '../img/piece_five.jpg'
-import Piece_three from '../img/piece_seven.jpg'
+import WA1 from '../img/world_art/wa_1.jpg'
+import WA2 from '../img/world_art/wa_2.jpg'
+import WA3 from '../img/world_art/wa_3.jpg'
 
 
 export const world_art = [
    
    
     {
-        img: Piece_one,
+        img: WA1,
         title: 'Collection one',
         author: 'Angel Price',
 
@@ -15,15 +15,14 @@ export const world_art = [
     },
    
     {
-        img: Piece_two,
+        img: WA2,
         title: 'Collection one',
         author: 'Angel Price',
 
         featured: true,
     },
-    
     {
-        img: Piece_three,
+        img: WA3,
         title: 'Collection one',
         author: 'Angel Price',
 

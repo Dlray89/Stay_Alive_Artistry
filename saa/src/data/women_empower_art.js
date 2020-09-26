@@ -1,47 +1,54 @@
-import Art_one from '../img/art_one.jpg'
-import Piece_eleven from '../img/piece_eleven.jpg'
-import Piece_twelve from '../img/piece_twelve.jpg'
-
+import WE1 from '../img/women_empowerment.we_1.jpg'
+import WE2 from '../img/women_empowerment.we_2.jpg'
+import WE3 from '../img/women_empowerment.we_3.jpg'
+import WE4 from '../img/women_empowerment.we_4.jpg'
+import WE5 from '../img/women_empowerment.we_5.jpg'
+import WE6 from '../img/women_empowerment.we_6.jpg'
 
 export const women_empowering_art = [
     {
-        img: Art_one,
+        img: WE1,
+        title: 'Collection one',
+        author: 'Angel Price',
+
+        featured: true,
+    },
+    {
+        img: WE2,
+        title: 'Collection one',
+        author: 'Angel Price',
+
+        featured: true,
+    },
+    {
+        img: WE3,
+        title: 'Collection one',
+        author: 'Angel Price',
+
+        featured: true,
+    },
+    {
+        img: WE4,
+        title: 'Collection one',
+        author: 'Angel Price',
+
+        featured: true,
+    },
+    {
+        img: WE5,
+        title: 'Collection one',
+        author: 'Angel Price',
+
+        featured: true,
+    },
+    {
+        img: WE6,
         title: 'Collection one',
         author: 'Angel Price',
 
         featured: true,
     },
    
-   
-    
-    {
-        img: Piece_six,
-        title: 'Collection one',
-        author: 'Angel Price',
-
-        featured: true,
-    },
-    {
-        img: Piece_seven,
-        title: 'Collection one',
-        author: 'Angel Price',
-
-        featured: true,
-    },
-    {
-        img: Piece_eleven,
-        title: 'Collection one',
-        author: 'Angel Price',
-
-        featured: true,
-    },
-    {
-        img:Piece_twelve,
-        title: 'Collection one',
-        author: 'Angel Price',
-
-        featured: true,
-    },
     
 
 ]

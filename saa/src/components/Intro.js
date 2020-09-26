@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import Saa from '../img/angel_price.gif'
+import Saa from '../img/intro/angel_price.gif'
 import { Button, makeStyles } from "@material-ui/core"
 import './intro.css'
 
