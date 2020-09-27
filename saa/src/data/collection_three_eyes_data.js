@@ -10,6 +10,7 @@ export const three_eye_art = [
         img:TE1,
         title: 'Collection Three Eye',
         author: 'Angel Price',
+        details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel condimentum massa. Proin lectus lacus',
 
         featured: true,
     },
@@ -17,6 +18,7 @@ export const three_eye_art = [
         img:TE2,
         title: 'Collection Three Eye',
         author: 'Angel Price',
+        details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel condimentum massa. Proin lectus lacus',
 
         featured: true,
     },
@@ -24,20 +26,23 @@ export const three_eye_art = [
         img:TE3,
         title: 'Collection Three Eye',
         author: 'Angel Price',
+        details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel condimentum massa. Proin lectus lacus',
 
         featured: true,
     },
     {
         img:TE4,
-        title: 'Collection Three Eye',
+        title: 'Three Eye RiRi',
         author: 'Angel Price',
+        details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel condimentum massa. Proin lectus lacus',
 
         featured: true,
     },
     {
         img:TE5,
-        title: 'Collection Three Eye',
+        title: 'Three Eye Rick',
         author: 'Angel Price',
+        details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel condimentum massa. Proin lectus lacus',
 
         featured: true,
     },
