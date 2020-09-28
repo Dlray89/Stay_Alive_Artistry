@@ -3,6 +3,7 @@ import { makeStyles ,Button, Dialog, DialogContent, DialogContentText, DialogTit
 
 const useStyles = makeStyles((theme) => ({
     button: {
+        width:'100%',
         border:'solid 1px white',
     width:'100%',
     background:'#cb006d',
@@ -27,8 +28,8 @@ const Modal = (props) => {
     }
 
     return(
-        <div style={{width:'70%', border:"solid 2px blue"}}>
-            <Button className={classes.button} onClick={handleOpen}>View Piece</Button>
+        <div style={{width:'100%'}}>
+            <Button className={classes.button} onClick={handleOpen}>View Gallery</Button>
             <Dialog open={open}>
                 <DialogTitle style={{margin:'0 auto', width:'83%', textAlign:'center'}}>{props.name} <br />{props.painter}</DialogTitle>
                 <Divider style={{background:'#cb006d'}}  />
